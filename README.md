@@ -5,7 +5,6 @@ When I first moved to Germany, understanding german was a hassle for me. I need 
 
 ![](app.webp)
 
-
 ## MODEL FILES
 You can only find the quantized model, which pays the price of accuracy by being more than three times smaller (in file size). The reason behind this is to avoid uploading a big model file into a git repository.
 
@@ -18,5 +17,11 @@ Here, there is a script named export_tflite, please check [this section](https:/
 
 If you want to use another language, take a look at [Scribosermo repository](https://gitlab.com/Jaco-Assistant/Scribosermo)
 
+## TFLite won't work
+Try running ./install.sh file
+
 ### Contribution
 Feel free to send a pull request!
+
+## Credits
+[Flutter-sound](https://github.com/canardoux/flutter_sound)
